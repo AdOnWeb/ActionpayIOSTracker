@@ -20,6 +20,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   // Инициализируем параметры трэкера
   [SLTracker initTest:@"sltestscheme" /* URL scheme */ installUrl:nil];
+  //[SLTracker init:@"my_app_id" scheme:@"sltestscheme" installUrl:nil];
   // Установим время автоматической отсылки событий
   [[SLTracker sharedTracker] setUpdateInterval:10 repeat:YES];
   // Начать следить за состоянием изменения подключения к интернету
@@ -52,7 +53,7 @@
   // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-#pragma mark – SmartLeadTracker selegate
+#pragma mark – SmartLeadTracker delegate
 
 - (BOOL)onBeginTrack:(id)sender action:(SLAction *)action
 {
