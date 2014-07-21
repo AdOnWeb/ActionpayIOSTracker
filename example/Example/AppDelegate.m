@@ -53,6 +53,12 @@
   // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
+// Устанавливаем обработчик URL Scheme
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+  return [SLTracker.sharedTracker trackUrl:application url:url];
+}
+
 #pragma mark – SmartLeadTracker delegate
 
 - (BOOL)onBeginTrack:(id)sender action:(SLAction *)action

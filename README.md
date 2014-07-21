@@ -49,6 +49,12 @@ Other Linker Fags: -all_load
   return YES;
 }
 
+// ЭТО НЕОБХОДИМО СДЕЛАТЬ: Устанавливаем обработчик URL Scheme
+- (BOOL)application:(UIApplication *)application handleOpenURL:(NSURL *)url
+{
+  return [SLTracker.sharedTracker trackUrl:application url:url];
+}
+
 #pragma mark – SmartLeadTracker delegate
 
 - (BOOL)onBeginTrack:(id)sender action:(SLAction *)action
