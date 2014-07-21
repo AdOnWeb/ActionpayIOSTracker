@@ -1,0 +1,6 @@
+framework module ActionpayTracker {
+  umbrella header "ActionpayTracker.h"
+
+  export *
+  module * { export * }
+}

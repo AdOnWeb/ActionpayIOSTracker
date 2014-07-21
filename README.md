@@ -1,4 +1,11 @@
-ActionpayIOSTracker
-===================
+# Frameworks
 
-Actionpay sample mobile app tracker for iOS
+ * Foundation.framework
+ * CFNetwork.framework
+ * MobileCoreServices.framework
+ * Security.framework
+ * SystemConfiguration.framework
+
+# Build config
+
+Other Linker Fags: -all_load
