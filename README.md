@@ -1,5 +1,5 @@
 ActionpayIOSTracker
-=======================
+===================
 
 SDK для внедрения в сторонние проекты с целью отслеживания установки приложения а также целевых действий пользователей.
 
@@ -37,7 +37,7 @@ Other Linker Fags: -all_load
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
   // Инициализируем параметры трэкера
-  // [SLTracker initTest:@"sltestscheme" /* URL scheme */ installUrl:nil]; // Гтцтализация в тестовом режиме
+  // [SLTracker initTest:@"sltestscheme" /* URL scheme */ installUrl:nil]; // Инициализация в тестовом режиме
   [SLTracker init:@"my_app_id" scheme:@"sltestscheme" installUrl:nil]; // Инициализация в боевом режиме
   // Установим время автоматической отсылки событий
   [[SLTracker sharedTracker] setUpdateInterval:10 /* каждые 10 секунд */ repeat:YES /* повторять */];
@@ -83,19 +83,19 @@ Other Linker Fags: -all_load
 
 Событие происходит только один раз
 
-```java
+```objc
 [[SLTracker sharedTracker] trackAction:@"event" apid:nil]; // Повторно событие не отработает
 ```
 
 Событие отрабатывает каждый раз
 
-```java
+```objc
 [[SLTracker sharedTracker] trackAction:@"purchase" price:@"440" orderid:nil];
 ```
 
 Методы отслеживания событий
 
-```java
+```objc
   // name – имя события
   // price – используется при регистрации событий оплаты (если указан этот параметр событие отрабатывает каждый раз)
   // orderId – Идетификатор заказа (Используется совместно с price)
