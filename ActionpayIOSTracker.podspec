@@ -1,5 +1,6 @@
 Pod::Spec.new do |s|
   s.name                = 'ActionpayIOSTracker'
+  s.author              = { "AdOnWeb LLC" => "devs@actionpay.ru" }
   s.version             = '1.0'
   s.summary             = "ActionpayIOSTracker for iOS SDK."
   s.description         = <<-DESC
@@ -19,7 +20,6 @@ Pod::Spec.new do |s|
     :tag => 'v' + s.version.to_s
   }
 
-  s.author              = 'AdOnWeb LLC.'
   s.platform            = :ios
 
   s.frameworks          = 'Foundation', 'SystemConfiguration', 'CFNetwork', 'MobileCoreServices', 'Security'
