@@ -19,6 +19,12 @@ SDK для внедрения в сторонние проекты с целью
  * Security.framework
  * SystemConfiguration.framework
 
+### Установка из CocoaPods
+
+```sh
+pod 'ActionpayIOSTracker', '~> 1.0'
+```
+
 ### Build config
 
 Framework представляет из себя статическую библиотеку, поэтому необходимо добавить флаг в настройках вашего проекта.
