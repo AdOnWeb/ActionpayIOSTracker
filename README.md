@@ -22,7 +22,7 @@ SDK для внедрения в сторонние проекты с целью
 ### Установка из CocoaPods
 
 ```sh
-pod 'ActionpayIOSTracker', '~> 1.0.1'
+pod 'ActionpayIOSTracker', '~> 1.0.2'
 ```
 
 ### Build config
