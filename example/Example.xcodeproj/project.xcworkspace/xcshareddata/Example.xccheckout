@@ -12,22 +12,34 @@
 	<dict>
 		<key>9CA3493B-81FB-411E-A8DE-3469442D8013</key>
 		<string>https://github.com/AdOnWeb/ActionpayIOSTracker.git</string>
+		<key>CE0675805E6AED13CA4007FBA7B29E6FB7DA49F9</key>
+		<string>https://github.com/AdOnWeb/ActionpayIOSTracker.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>example/Example.xcodeproj/project.xcworkspace</string>
+	<string>example/Example.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>9CA3493B-81FB-411E-A8DE-3469442D8013</key>
+		<string>../../../../proj.ios.example</string>
+		<key>CE0675805E6AED13CA4007FBA7B29E6FB7DA49F9</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/AdOnWeb/ActionpayIOSTracker.git</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>9CA3493B-81FB-411E-A8DE-3469442D8013</string>
+	<string>CE0675805E6AED13CA4007FBA7B29E6FB7DA49F9</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>CE0675805E6AED13CA4007FBA7B29E6FB7DA49F9</string>
+			<key>IDESourceControlWCCName</key>
+			<string>ActionpayIOSTracker</string>
+		</dict>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>

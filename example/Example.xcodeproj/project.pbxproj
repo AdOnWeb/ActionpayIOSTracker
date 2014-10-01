@@ -49,8 +49,7 @@
 		B330671C197415DE008F1D0B /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		B330671E197415F8008F1D0B /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
 		B33067221974167B008F1D0B /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
-		B39912311976ABA8002240E0 /* ActionpayTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ActionpayTracker.framework; path = ../proj.ios/ActionpayTracker.framework; sourceTree = "<group>"; };
-		B39C2706197D2DA10072C008 /* ActionpayTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ActionpayTracker.framework; sourceTree = "<group>"; };
+		B39C2706197D2DA10072C008 /* ActionpayTracker.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ActionpayTracker.framework; path = Frameworks/ActionpayTracker.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +138,7 @@
 		B33067171973FD17008F1D0B /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B39C2705197D2DA10072C008 /* Frameworks */,
-				B39912311976ABA8002240E0 /* ActionpayTracker.framework */,
+				B39C2706197D2DA10072C008 /* ActionpayTracker.framework */,
 				B33067221974167B008F1D0B /* SystemConfiguration.framework */,
 				B330671E197415F8008F1D0B /* Security.framework */,
 				B330671C197415DE008F1D0B /* MobileCoreServices.framework */,
@@ -148,14 +146,6 @@
 				B3306718197415A8008F1D0B /* Foundation.framework */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		B39C2705197D2DA10072C008 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				B39C2706197D2DA10072C008 /* ActionpayTracker.framework */,
-			);
-			path = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
