@@ -54,6 +54,11 @@
 @property (nonatomic, retain) NSString *installCallbackUrl;
 
 /**
+ * Install action code
+ */
+@property (nonatomic, retain) NSString *installEventCode;
+
+/**
  * Test mode
  */
 @property (nonatomic) BOOL test;
@@ -94,6 +99,36 @@
 + (id)init:(NSString *)appID
     scheme:(NSString *)scheme
 installUrl:(NSString *)installUrl;
+
+/**
+ * Init tracker
+ *
+ * @param appID application ID
+ * @param scheme
+ * @param install url default 'return'
+ * @param installEvent install event code. Default install
+ * @return self
+ */
++ (id)  init:(NSString *)appID
+      scheme:(NSString *)scheme
+  installUrl:(NSString *)installUrl
+installEvent:(NSString *)installEventCode;
+
+/**
+ * Init tracker
+ *
+ * @param appID application ID
+ * @param scheme
+ * @param install url default 'return'
+ * @param installEvent install event code. Default install
+ * @param test test mode
+ * @return self
+ */
++ (id)  init:(NSString *)appID
+      scheme:(NSString *)scheme
+  installUrl:(NSString *)installUrl
+installEvent:(NSString *)installEventCode
+        test:(BOOL)test;
 
 /**
  * Init tracker in test mode
