@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name                = 'ActionpayIOSTracker'
   s.author              = { "AdOnWeb LLC" => "devs@actionpay.ru" }
-  s.version             = '1.0.2'
+  s.version             = '1.0.4'
   s.summary             = "ActionpayIOSTracker for iOS SDK."
   s.description         = <<-DESC
     SDK для внедрения в сторонние проекты с целью отслеживания установки приложения а также целевых действий пользователей.
